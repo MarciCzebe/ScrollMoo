@@ -1,6 +1,6 @@
 {
   "name": "scrollmoo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ScrollMoo is a pure JavaScript-based tool that lets you create high-performance, scroll-triggered, keyframed animations on HTML elements during vertical scrolling on a webpage.",
   "homepage": "https://scrollmoo.com",
   "main": "dist/scrollmoo.min.js",
