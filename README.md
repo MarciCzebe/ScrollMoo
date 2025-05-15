@@ -1,6 +1,6 @@
 # ScrollMoo
 
-ScrollMoo is a pure JavaScript-based tool that lets you create high-performance, scroll-triggered, keyframed animations on HTML elements during vertical scrolling on a webpage. Whether you're a professional web developer or just familiar with HTML, CSS, and JavaScript basics, the simplicity of ScrollMoo will make it easy and enjoyable to create spectacular web animations.
+ScrollMoo is a pure JavaScript-based tool that lets you create high-performance, scroll-triggered/scroll-driven, keyframed animations on HTML elements during vertical scrolling on a webpage. Whether you're a professional web developer or just familiar with HTML, CSS, and JavaScript basics, the simplicity of ScrollMoo will make it easy and enjoyable to create spectacular web animations.
 
 For more information, please visit [ScrollMoo.com](https://scrollmoo.com)
 ## Demos
@@ -19,7 +19,7 @@ You can find detailed [installation guide here](https://scrollmoo.com/installati
 If you prefer to use a CDN
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/scrollmoo@1.0.6/dist/scrollmoo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scrollmoo@1.0.7/dist/scrollmoo.min.js"></script>
 ```
 
 ### NPM

@@ -1,7 +1,7 @@
 {
   "name": "scrollmoo",
-  "version": "1.0.6",
-  "description": "ScrollMoo is a pure JavaScript-based tool that lets you create high-performance, scroll-triggered, keyframed animations on HTML elements during vertical scrolling on a webpage.",
+  "version": "1.0.7",
+  "description": "ScrollMoo is a pure JavaScript-based tool that lets you create high-performance, scroll-triggered/scroll-driven, keyframed web animations.",
   "homepage": "https://scrollmoo.com",
   "main": "dist/scrollmoo.min.js",
   "module": "dist/scrollmoo.esm.min.js",
@@ -16,14 +16,19 @@
   },
   "keywords": [
     "scrollmoo",
+    "javascript",
+    "animation",
+    "scroll",
+    "scroll-driven",
+    "scrollreveal",
     "scrolltrigger",
     "keyframes",
     "keyframe-animation",
-    "animation",
-    "javascript",
+    "reveal-animation",
+    "matrix",
+    "matrix3d",
     "3d",
-    "2d",
-    "matrix"
+    "2d"
   ],
   "bugs": "https://github.com/MarciCzebe/ScrollMoo/issues",
   "author": "Marci Czebe <info@scrollmoo.com>",
