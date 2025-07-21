@@ -30,10 +30,14 @@ npm install scrollmoo
 ```
     
 ## Usage
-
 ```javascript
 import ScrollMoo from "scrollmoo"; // NPM
+```
 
+#### Static Object
+Applies the same animation properties to all element(s). 
+
+```javascript
 let SM = ScrollMoo({
     ".your-element": {
         markers: true, // only during the development
@@ -45,6 +49,24 @@ let SM = ScrollMoo({
             }
         }
     }
+});
+```
+
+#### Dynamic Function
+"i" represents the index of each element.
+
+```javascript
+let SM = ScrollMoo({
+    ".your-elements": i => ({
+        markers: true, // only during the development
+        keyframes: {
+            transform: {
+                rotate: {
+                    100: (i + 1) * 45 + "deg"
+                }
+            }
+        }
+    })
 });
 ```
 
