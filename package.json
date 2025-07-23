@@ -1,6 +1,6 @@
 {
   "name": "scrollmoo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ScrollMoo is a pure JavaScript-based tool that lets you create high-performance, keyframed scroll animations.",
   "homepage": "https://scrollmoo.com",
   "main": "dist/scrollmoo.min.js",

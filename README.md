@@ -19,7 +19,7 @@ You can find detailed [installation guide here](https://scrollmoo.com/installati
 If you prefer to use a CDN
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/scrollmoo@1.1.0/dist/scrollmoo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scrollmoo@1.1.1/dist/scrollmoo.min.js"></script>
 ```
 
 ### NPM
@@ -30,10 +30,14 @@ npm install scrollmoo
 ```
     
 ## Usage
-
 ```javascript
 import ScrollMoo from "scrollmoo"; // NPM
+```
 
+#### Static Object
+Applies the same animation properties to all element(s). 
+
+```javascript
 let SM = ScrollMoo({
     ".your-element": {
         markers: true, // only during the development
@@ -45,6 +49,24 @@ let SM = ScrollMoo({
             }
         }
     }
+});
+```
+
+#### Dynamic Function
+"i" represents the index of each element.
+
+```javascript
+let SM = ScrollMoo({
+    ".your-elements": i => ({
+        markers: true, // only during the development
+        keyframes: {
+            transform: {
+                rotate: {
+                    100: (i + 1) * 45 + "deg"
+                }
+            }
+        }
+    })
 });
 ```
 
