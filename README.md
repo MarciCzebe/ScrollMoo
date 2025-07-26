@@ -19,7 +19,7 @@ You can find detailed [installation guide here](https://scrollmoo.com/installati
 If you prefer to use a CDN
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/scrollmoo@1.1.4/dist/scrollmoo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scrollmoo@1.1.5/dist/scrollmoo.min.js"></script>
 ```
 
 ### NPM
